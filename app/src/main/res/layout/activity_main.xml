@@ -41,6 +41,7 @@
             android:text="Username"/>
 
         <EditText
+            android:id="@+id/txtUsername"
             android:textColor="@color/black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
@@ -51,17 +52,19 @@
             android:text="Password"/>
 
         <EditText
+            android:id="@+id/txtPassword"
             android:textColor="@color/black"
             android:inputType="textPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
         <Button
-            android:text="Login"
+            android:id="@+id/Login"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:text="Login" />
 
-            <TextView
+        <TextView
                 android:layout_marginTop="13dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
